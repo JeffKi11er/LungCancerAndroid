@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#FFFFFF"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_id"
+            android:text="ID"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_name"
+            android:text="Họ và tên "
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_gender"
+            android:text="Giới tính "
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_type"
+            android:text="Loại dữ liệu"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_date"
+            android:text="Ngày chụp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_location"
+            android:text="Xác định vị trí kích thước khối u"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_differ"
+            android:text="Phân loại lành tính ác tính"
+            android:textSize="20sp"
+            />
+</TableRow>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@drawable/shape_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="35dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="35dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Công cụ dán nhãn Lung Tumor Maker"
+                android:textSize="25dp"
+                android:id="@+id/tv_titleTool"
+                />
+            <TextView
+                android:id="@+id/tv_detailTool"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lung Tumor Maker là sản phẩm mẫu hỗ trợ bác sĩ trong việc phân tích và gán nhãn dữ liệu ảnh cắt lớp vi tính về ung thư phổi : Sản phẩm bao gồm các chức năng phục vụ cho việc xây dựng bộ cơ sở dữ liệu về cắt lớp vi tính cho ung thư phổi:"
+                android:paddingTop="15dp"
+                android:paddingBottom="20dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_dot"
+                    android:background="@android:color/white"/>
+                <TextView
+                    android:id="@+id/tv_dot_text1"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Đánh dấu vị trí, kích thước các khối u"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp">
+                <ImageView
+                    android:background="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_dot"
+                    />
+                <TextView
+                    android:id="@+id/tv_dot_tex2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Đánh dấu các khối u là lành tính hay ác tính"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"/>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/img_tool"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/pictool"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="35dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Tải xuống:"
+                android:textSize="15dp" />
+            <ImageView
+                android:id="@+id/edt_download_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:src="@drawable/ic_download"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

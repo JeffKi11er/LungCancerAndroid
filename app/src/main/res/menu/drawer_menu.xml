@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/nav_support"
+            android:title="Hỗ trợ chuẩn đoán" />
+        <item
+            android:id="@+id/nav_tool"
+            android:title="Công cụ dán nhãn" />
+        <item
+            android:id="@+id/nav_sample"
+            android:title="Bộ dữ liệu mẫu" />
+        <item
+            android:id="@+id/nav_contact"
+            android:title="Liên hệ" />
+    </group>
+</menu>

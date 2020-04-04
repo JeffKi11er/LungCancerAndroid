@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/opening_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="35dp"
+            >
+            <TextView
+                android:id="@+id/tv_headtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HỆ THỐNG LUNG CANCER CARE"
+                android:gravity="center"
+                android:textSize="23dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/lung_cancer_in_xray"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/tv_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Theo thống kê gần đây, ung thư phổi là loại bệnh chiếm tỉ lệ cao nhất về tỷ lệ mắc và tử vong trong các bệnh lý ung thư toàn cầu"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            >
+            <TextView
+                android:id="@+id/tv_link"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xem thêm >>"
+                android:textSize="15dp"
+                android:textColor="#FA1E1E"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#C0BFBF"
+            android:layout_margin="30dp"/>
+    </LinearLayout>
+</LinearLayout>
